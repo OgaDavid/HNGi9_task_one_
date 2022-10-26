@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+:root {
+
+/* color palette */
+--text-grey-900:#101828;
+--text-grey-500: #667085;
+--link-bg: #EAECF0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+main {
+    padding-bottom: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Profile section styling */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__img {
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+}
+
+.profile__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+
+
+.slack {
+    display: none;
+}
+
+/* Profile section styling ends here */
