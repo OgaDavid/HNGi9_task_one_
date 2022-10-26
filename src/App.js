@@ -1,4 +1,5 @@
 import Profile from './components/Profile';
+import Links from './components/Links';
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Profile />
+        <Links />
       </div>
     </div>
   );

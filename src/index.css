@@ -64,3 +64,34 @@ main {
 }
 
 /* Profile section styling ends here */
+
+/* Links styling starts here */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  background-color: var(--link-bg);
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 8px;
+  width: 1152px;
+  color: var(--text-grey-900);
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.links a:hover {
+  color: var(--text-grey-500);
+}
+
+/* Links styling ends here */
